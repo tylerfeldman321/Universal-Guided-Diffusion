@@ -18,10 +18,6 @@ The code for stable diffusion is in `stable-diffusion-guided`, and we use the `s
 ```
 conda env create -f environment.yaml
 conda activate ldm
-conda install pytorch torchvision cudatoolkit=11.3 -c pytorch
-pip install GPUtil
-pip install blobfile
-pip install facenet-pytorch
 ```
 
 For each of the guidance below, we can control the image generation by changing the following arguments. \
